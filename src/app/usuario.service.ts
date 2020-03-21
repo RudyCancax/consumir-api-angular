@@ -10,7 +10,11 @@ export class UsuarioService {
 
 
   getUsuarios() {
-    return this.http.get('https://randomuser.me/api/?results=25');
+    return this.http.get('https://randomuser.me/api/?results=3');
+  }
+
+  getPerro(){
+    return this.http.get('https://dog.ceo/api/breed/hound/images/random/5');
   }
 }
 

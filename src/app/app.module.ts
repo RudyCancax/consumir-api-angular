@@ -15,7 +15,9 @@ import { UsuarioService } from './usuario.service';
     BrowserModule,
     HttpClientModule
   ],
-  providers: [UsuarioService],
+  providers: [
+    UsuarioService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
